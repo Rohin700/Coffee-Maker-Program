@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2dd3d;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/free-photo/fresh-coffee-steams-wooden-table-close-up-generative-ai_188544-8923.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #c8adad89;
+    padding: 20px;
+    border-radius: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(32, 29, 32);
+    
+   
+   
+}
+h1 {
+    text-align: center;
+}
+.coffee-item {
+    margin-bottom: 30px;
+}
+label {
+    display: block;
+    font-weight: bold;
+}
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+}
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(173, 166, 166, 0.634);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.submit-btn:hover {
+    background-color:rgb(248, 149, 20);
+}
